@@ -1,0 +1,132 @@
+body{
+  font-family: sans-serif;
+}
+
+#tasklist-container{
+  padding-top: 1rem;
+}
+.vheight-100 {
+  min-height: 100vh;
+}
+.color-nav{
+  background-color: #17a2b9;
+}
+.important-task{
+  color: red
+}
+.list-group-item.sidebar-left-elem-active{
+  color: #fff ;
+  background-color: #17a2b9!important;
+  border-color: #17a2b9!important;
+  padding: .75rem 1.25rem;
+  margin-left: 6px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  border-radius: 20px  !important;
+}
+.list-group-item.sidebar-left-elem:hover {
+  background-color:#afe7f1!important;
+  
+}
+.list-group-item.sidebar-left-elem-active:hover{
+  background-color: #17a2b9!important;
+}
+.list-group-item.sidebar-left-elem{
+ 
+  padding: .75rem 1.25rem;
+  margin-left: 6px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  background-color: #fff;
+  border-radius: 20px  !important;
+  border: 1px solid rgba(0,0,0,0)!important;
+}
+.list-group-item.todo-main{
+ 
+  padding: 1.75rem 1.75rem;
+  margin-bottom: 12px;
+  margin-top: 4px;
+  border-radius: 10px;
+  background-color: #fff;
+  border-radius: 10px  !important;
+  border: 1px solid rgba(0,0,0,0)!important;
+
+}
+
+.list-group-item.todo-main:hover{
+ 
+  background-color: ghostwhite;
+
+}
+.add-button{
+  color: #17a2b9 ;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+}
+
+.validity-error{
+  color: #e03131
+}
+
+.error-border{
+  outline: none;
+    border-color: #e03131;
+    box-shadow: 0 0 5px #e03131;
+}
+
+.charging-gif{
+  height: 40px;
+  width: 40px;
+}
+
+.login-logo{
+  background-color: #17a2b9;
+  color: white;
+  width: 500 px;
+}
+
+.login-modal-text{
+  text-align: center;
+}
+
+.forgot{
+  color: #859aba ;
+}
+
+.forgot:hover{
+  color:#424242 ;
+}
+
+.login-title{
+  color:black ;
+}
+
+.error-border-login{
+  outline: none;
+  border-color: #e03131;
+  box-shadow: 0 0 5px #e03131;
+}
+
+.validity-error-login{
+  color: #e03131;
+}
+.delete-button:hover{
+  cursor: pointer;
+  border-color: #e03131;
+  box-shadow: 0 0 5px #e03131;
+}
+.update-button:hover{
+  cursor: pointer;
+  border-color: #ddaf30;
+  box-shadow: 0 0 5px #ddaf30;
+}
+.delete-button{
+  margin-left: 10px;
+}
+.add-button:hover{
+  color: #17a2b9 ;
+  cursor: pointer;
+}
+
+
